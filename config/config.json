@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "fetch-data-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fetchData/FetchDataWebPart.js",
+          "manifest": "./src/webparts/fetchData/FetchDataWebPart.manifest.json"
+        }
+      ]
+    },
+    "add-employee-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/addEmployee/AddEmployeeWebPart.js",
+          "manifest": "./src/webparts/addEmployee/AddEmployeeWebPart.manifest.json"
+        }
+      ]
+    },
+    "edit-employee-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/editEmployee/EditEmployeeWebPart.js",
+          "manifest": "./src/webparts/editEmployee/EditEmployeeWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FetchDataWebPartStrings": "lib/webparts/fetchData/loc/{locale}.js",
+    "AddEmployeeWebPartStrings": "lib/webparts/addEmployee/loc/{locale}.js",
+    "EditEmployeeWebPartStrings": "lib/webparts/editEmployee/loc/{locale}.js"
+  }
+}

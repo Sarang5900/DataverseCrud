@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "18.18.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "dataversecrud",
+    "libraryId": "7858e208-cb88-472e-b62b-c5e39a64b302",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "dataversecrud",
+    "solutionShortDescription": "dataversecrud description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

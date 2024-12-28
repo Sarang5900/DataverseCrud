@@ -1,0 +1,50 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "dataversecrud-client-side-solution",
+    "id": "7858e208-cb88-472e-b62b-c5e39a64b302",
+    "version": "2.0.1.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "dataversecrud description"
+      },
+      "longDescription": {
+        "default": "dataversecrud description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "dataversecrud Feature",
+        "description": "The feature that activates elements of the dataversecrud solution.",
+        "id": "0f69e315-efdf-425b-a002-05c14f800b22",
+        "version": "2.0.1.1"
+      }
+    ],
+    "webApiPermissionRequests": [
+      {
+        "resource": "videoemployeeses",
+        "scope": "user_impersonation"
+      },
+      {
+        "resource": "Microsoft Dataverse",
+        "scope": "user_impersonation"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/dataversecrud.sppkg"
+  }
+}
