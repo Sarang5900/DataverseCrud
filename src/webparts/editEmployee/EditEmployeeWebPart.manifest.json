@@ -14,13 +14,13 @@
   "requiresCustomScript": false,
   "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
   "supportsThemeVariants": true,
-
+  "supportsFullBleed": true,
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Advanced
     "group": { "default": "Advanced" },
     "title": { "default": "EditEmployee" },
     "description": { "default": "EditEmployee description" },
-    "officeFabricIconFontName": "Page",
+    "officeFabricIconFontName": "EditContact",
     "properties": {
       "description": "EditEmployee"
     }
